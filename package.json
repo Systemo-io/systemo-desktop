@@ -12,8 +12,10 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
     "postinstall": "electron-builder install-app-deps",
-    "build": "electron-builder --mac --windows --linux",
-    "release": "electron-builder --mac --windows --linux --publish always"
+    "build": "electron-builder",
+    "build:all": "electron-builder --mac --windows --linux",
+    "release": "electron-builder --publish always",
+    "release:all": "electron-builder --mac --windows --linux --publish always"
   },
   "build": {
     "appId": "com.systemo-io.systemo-desktop",
