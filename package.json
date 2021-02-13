@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "homepage": "https://systemo.app",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -15,7 +16,7 @@
     "release": "electron-builder --mac --windows --linux --publish always"
   },
   "build": {
-    "appId": "com.systemo-io.systemo",
+    "appId": "com.systemo-io.systemo-desktop",
     "productName": "Systemo",
     "mac": {
       "category": "public.app-category.productivity"
@@ -33,7 +34,8 @@
   "keywords": [],
   "author": {
     "name": "Systemo",
-    "email": "hello@systemo.io"
+    "email": "hello@systemo.io",
+    "url": "https://systemo.app"
   },
   "license": "MIT",
   "config": {
